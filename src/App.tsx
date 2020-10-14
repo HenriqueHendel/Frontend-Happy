@@ -1,16 +1,17 @@
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom'
 
-import Landing from './pages/Landing';
+import Routes from './routes';
 
-import CreateGlobalStyle from './styles/global';
+import GlobalStyle from './styles/global';
 
 
 const App: React.FC = () => {
   return (
-    <>
-      <CreateGlobalStyle />
-      <Landing />
-    </>
+    <BrowserRouter>
+      <GlobalStyle />
+      <Routes />
+    </BrowserRouter>
   );
 }
 
