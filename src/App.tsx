@@ -1,12 +1,16 @@
 import React from 'react';
 
-interface TitleProps {
-  text: string;
-}
+import Landing from './pages/Landing';
+
+import CreateGlobalStyle from './styles/global';
+
 
 const App: React.FC = () => {
   return (
-    <h1>Henrique</h1>
+    <>
+      <CreateGlobalStyle />
+      <Landing />
+    </>
   );
 }
 
