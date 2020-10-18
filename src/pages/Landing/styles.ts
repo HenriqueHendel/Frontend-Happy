@@ -21,7 +21,7 @@ export const Content = styled.div`
     max-width: 1100px;
 
     height: 100%;
-    max-height: 550px;
+    max-height: 570px;
 
     display: flex;
     align-items: flex-start;
